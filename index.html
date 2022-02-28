@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GitHub User Finder O_O </title>
+
+    <!--import css----------------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="./css/style.css"/>
+
+    <!--import google fonts-------------------------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<section class="main-container">
+
+    <div class="search-section">
+        <input type="text"
+               name=""
+               id="input"
+               placeholder="Enter Github UserName"
+               class="txtUser"
+        />
+        <div id="search" onclick="getUser()" class="btnSearch">Search</div>
+    </div>
+
+
+    <div class="profile-section">
+
+        <div class="main-info-section">
+
+            <img src="assets/github.png" alt="avatar" id="profile-img"/>
+            <span class="name" id="name">Mindula Dilthushn</span>
+            <a href="" id="username">@Mindula-Dilthushan</a>
+
+        </div>
+
+        <div class="mid-section">
+            <p id="bio">SE | EH | LiFe S 🚀🌎</p>
+            <p><span id="repo">118</span> Repositories</p>
+        </div>
+
+        <div class="follow-section">
+            <div class="followers">
+                <span class="no" id="followers">112</span>
+                Followers
+            </div>
+            <div class="following">
+                <span class="no" id="following">252</span>
+                Following
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <p class="footer-text">Made with Mindula Dilthushan &nbsp&nbsp ^_~ </p>
+    </div>
+
+</section>
+
+<!--import js---------------------------------------------------------------------------------------------------------->
+<script src="./js/script.js"></script>
+
+</body>
+</html>

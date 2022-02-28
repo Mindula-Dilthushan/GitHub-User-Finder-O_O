@@ -1,0 +1,152 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #5600ff, #6130ff, #6d49ff, #795dff, #8570ff, #4e8dff, #00a3ff, #00b5ff, #00ceff, #00e3f1, #00f4bf, #18ff7a);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 60%;
+    height: 90vh;
+    background-color: #ffffff;
+    background-image: linear-gradient(to right top, #d0d0d1, #ded3dc, #f4d4da, #ffd8ca, #ffe4ba, #ffe5ba, #ffe5ba, #ffe6ba, #ffdbca, #f8d7da, #e2d6de, #d4d4d4);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-section {
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.txtUser {
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-color: transparent;
+    width: 60%;
+    color: #171515;
+}
+
+input[type=text]:focus {
+    outline: white;
+}
+
+.btnSearch {
+    width: 25%;
+    height: 60%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.4rem;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: #171515;
+}
+
+.btnSearch:hover {
+    background-color: #171515;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.profile-section {
+    width: 100%;
+    height: 60%;
+    background-color: transparent;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Hubballi', cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.main-info-section {
+    width: 100%;
+    height: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #171515;
+}
+
+#username {
+    margin-top: 0.5%;
+}
+
+#profile-img {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.mid-section {
+    width: 100%;
+    height: 25%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #171515;
+}
+
+#bio {
+    display: flex;
+    margin-top: -20px;
+}
+
+.follow-section {
+    width: 70%;
+    height: 15%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.followers {
+    margin-right: 20px;
+    margin-top: -40px;
+    color: #171515;
+}
+
+.following {
+    margin-right: 20px;
+    margin-top: -40px;
+    color: #171515;
+}
+
+.footer-section {
+    width: 40%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-text {
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: 30%;
+}
